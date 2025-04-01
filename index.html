@@ -1,65 +1,72 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <div class="navbar">
-      <img src="/EliteBats.webp.webp" alt="Logo" width="200" height="200" class="icon">
-      <a href="/index.html">Home</a>
-      <a href="/AboutUs.html">About Us</a>
-      <a href="/ContactUs.html">Contact Us</a>
-   
-       </div>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <h1 class="title">Elite Bats</h1>
-<link rel="stylesheet" href="style.css" type="text/css" />
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <title>Elite Bats</title> <!-- It's good practice to have a title for the page -->
 </head>
 <body>
- <section id="home">
- <div class="container">
- <h1>Elite Bats</h1>
- <p>We have all the cricket bats you will ask for</p>
- </div>
- </section>
- <section id="about">
- <div class="container">
- <h2>About us at Elite Bats</h2>
- <p>Me and my team have come up with cool signiture bats at low prices for you to buy</p>
- </div>
- </section>
- <section id="services">
- <div class="container">
- <h2>Our Services</h2>
- <p>We offer the following bats</p>
- <ul>
- <li>Kookabura</li>
- <li>GM</li>
- <li>Gray Nicholls</li>
- <li>MRF</li>
- </ul>
- </div>
- </section>
- <section id="contact">
- <div class="container">
- <h2>Contact Us</h2>
- <p>Feel free to reach out for any inquiries.
-    contact me at Aidan.Rajapakse@stc.school.nz
- </p>
- <form id="contactForm" class="contact-form">
- <input type="text" id="name" placeholder="Your Name" required>
- <input type="email" id="email" placeholder="Your Email" required>
- <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
- <button type="submit">Send</button>
- </form>
- <p id="formMessage"></p>
- </div>
- </section>
- <footer>
- <p>&copy; 2025 ELite Bats | Everyone gets a bat</p>
- </footer>
- <script src="script.js"></script>
+
+    <!-- Navbar should be inside the body -->
+    <div class="navbar">
+        <img src="/EliteBats.webp" alt="Elite Bats Logo" width="200" height="200" class="icon">
+        <a href="/index.html">Home</a>
+        <a href="/AboutUs.html">About Us</a>
+        <a href="/ContactUs.html">Contact Us</a>
+    </div>
+
+    <h1 class="title">Elite Bats</h1>
+
+    <section id="home">
+        <div class="container">
+            <h1>Elite Bats</h1>
+            <p>We have all the cricket bats you will ask for</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About us at Elite Bats</h2>
+            <p>Me and my team have come up with cool signature bats at low prices for you to buy</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <p>We offer the following bats</p>
+            <ul>
+                <li>Kookabura</li>
+                <li>GM</li>
+                <li>Gray Nicholls</li>
+                <li>MRF</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Feel free to reach out for any inquiries. Contact me at <a href="mailto:Aidan.Rajapakse@stc.school.nz">Aidan.Rajapakse@stc.school.nz</a></p>
+            <form id="contactForm" class="contact-form">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+            <p id="formMessage"></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Elite Bats | Everyone gets a bat</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
+
