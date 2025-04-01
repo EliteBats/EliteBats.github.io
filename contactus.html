@@ -4,5 +4,20 @@
 
 </head>
 <body>
-<h1>Hello World</h1>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Feel free to reach out for any inquiries. Contact me at <a href="mailto:Aidan.Rajapakse@stc.school.nz">Aidan.Rajapakse@stc.school.nz</a></p>
+
+<form id="contactForm" class="contact-form" action="https://formspree.io/f/mblgandq" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+    <button type="submit">Send</button>
+</form>
+
+<p id="formMessage"></p>
+        </div>
+    </section>
+
 </body>
