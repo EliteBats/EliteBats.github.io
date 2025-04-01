@@ -3,5 +3,7 @@
     color:blue;
     text-align: center;
     text-shadow: 4px 4px #000000, -4px -4px #000000, 4px -4px #000000, -4px 4px #000000;
-
+}
+html {
+    background-color: aqua;
 }
