@@ -1,31 +1,31 @@
 .title {
-    font-size: 100px;
-    color:blue;
-    text-align: center;
-    text-shadow: 4px 4px #000000, -4px -4px #000000, 4px -4px #000000, -4px 4px #000000;
+  font-size: 100px;
+  color: blue;
+  text-align: center;
+  text-shadow: 4px 4px #000000, -4px -4px #000000, 4px -4px #000000, -4px 4px #000000;
 }
-html 
-{
-    background-color: aqua;
-     font-family: "Oswald", sans-serif;
-     .navbar a {
-        overflow: hidden;
-        background-color: #000000;
-        position: fixed;
-        top: 0;
-        width: 100%;
-        float: left;
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 17px;
-        transition: transform 0.2s ease-in-out, background 0.2s;
-      }
-      
-      .navbar a:focus {
-        outline: 2px solid #000;
-        background: white;
-        color: blue;
-      }
-      
-      }
+
+html {
+  background-color: aqua;
+  font-family: "Oswald", sans-serif;
+}
+
+/* Navbar styles should be outside of the html block */
+.navbar a {
+  overflow: hidden;
+  background-color: #000000;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 17px;
+  transition: transform 0.2s ease-in-out, background 0.2s;
+}
+
+.navbar a:focus {
+  outline: 2px solid #000;
+  background: white;
+  color: blue;
+}
