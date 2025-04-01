@@ -7,12 +7,12 @@
    }
    
    
-   body {
+   .body {
     line-height: 1.6;
    }
    
    
-   header {
+   .header {
     background: #4d93e3;
     color: white;
     padding: 15px 0;
@@ -24,26 +24,26 @@
    }
    
    
-   nav ul {
+   .nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
    }
    
    
-   nav ul li {
+   .nav ul li {
     margin: 0 15px;
    }
    
    
-   nav ul li a {
+   .nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 18px;
    }
    
    
-   section {
+   .section {
     padding: 80px 20px;
     min-height: 100vh;
     text-align: center;
@@ -95,7 +95,7 @@
    }
    
    
-   footer {
+   .footer {
     background: #222;
     color: white;
     text-align: center;
