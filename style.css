@@ -15,3 +15,16 @@ position:fixed;
 top:0;
 width:100%;
 }
+.navbar a {
+float: left;
+display: block;
+color:white;
+text-align: center;
+padding: 17px;
+transition: transform 0.2s ease-in-out, background 0.2s;
+}
+.navbar a:hover {
+    background:white;
+    color:blue;
+    transform: scale(1.1);
+}
