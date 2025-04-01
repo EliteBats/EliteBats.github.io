@@ -4,27 +4,27 @@
     text-align: center;
     text-shadow: 4px 4px #000000, -4px -4px #000000, 4px -4px #000000, -4px 4px #000000;
 }
-html {
+html 
+{
     background-color: aqua;
      font-family: "Oswald", sans-serif;
-}
-.navbar {
-overflow: hidden;
-background-color: #000000;
-position:fixed;
-top:0;
-width:100%;
-}
-.navbar a {
-float: left;
-display: block;
-color:white;
-text-align: center;
-padding: 17px;
-transition: transform 0.2s ease-in-out, background 0.2s;
-}
-.navbar a:hover {
-    background:white;
-    color:blue;
-    transform: scale(1.1);
-}
+     .navbar a {
+        overflow: hidden;
+        background-color: #000000;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 17px;
+        transition: transform 0.2s ease-in-out, background 0.2s;
+      }
+      
+      .navbar a:hover {
+        background: white;
+        color: blue;
+        transform: scale(1.1);
+      }
+      
