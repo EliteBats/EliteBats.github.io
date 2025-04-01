@@ -8,7 +8,7 @@ html {
     background-color: aqua;
      font-family: "Oswald", sans-serif;
 }
-.navbar a{
+.navbar {
 overflow: hidden;
 background-color: #000000;
 position:fixed;
